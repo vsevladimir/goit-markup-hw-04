@@ -147,6 +147,11 @@ img {
 .hero {
     background-color: var(--dark);
     padding: 188px 0;
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .footer {
@@ -295,14 +300,6 @@ img {
 }
 
 /* hero section */
-
-.hero {
-    max-width: 1440px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
 .container-hero {
     display: flex;
