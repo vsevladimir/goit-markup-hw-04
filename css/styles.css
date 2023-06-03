@@ -470,3 +470,15 @@ img {
     display: flex;
     align-items: baseline;
 }
+
+.soc-footer-paragraph {
+    font-weight: 500;
+    color: var(--white-background);
+    margin-bottom: 16px;
+}
+
+.footer-soc-icons {
+    display: block;
+    gap: 16px;
+    
+}
