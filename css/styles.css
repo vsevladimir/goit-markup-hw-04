@@ -155,7 +155,7 @@ img {
 
 .footer {
     background-color: var(--dark);
-    padding: 100px 0;
+    padding: 100px 156px;
 }
 
 
@@ -460,15 +460,12 @@ img {
     fill: var(--light);
 }
 
-.footer-logo-container {
+.footer-first-container {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
-}
+    flex-direction: column;
 
-.footer-logo-container-index {
-    display: flex;
-    align-items: baseline;
 }
 
 .soc-footer-paragraph {
