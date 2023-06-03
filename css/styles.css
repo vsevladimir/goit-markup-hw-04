@@ -478,7 +478,7 @@ img {
 }
 
 .footer-soc-icons {
-    display: block;
+    display: flex;
     gap: 16px;
-    
+
 }
