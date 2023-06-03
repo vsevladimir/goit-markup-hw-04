@@ -521,5 +521,31 @@ img {
     line-height: 1.11;
     color: var(--dark);
     margin-bottom: 72px;
+    text-align: center;
 }
 
+.list-customers {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.item-customers {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.link-customers {
+    height: 100%;
+    width: 100%;
+    color: var(--subtle-text);
+    border: 1px solid var(--subtle-text);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-customers {
+    fill: currentColor;
+}
