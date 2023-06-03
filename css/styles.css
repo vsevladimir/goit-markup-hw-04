@@ -459,3 +459,9 @@ img {
 .team-icon {
     fill: var(--light);
 }
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    
+}
