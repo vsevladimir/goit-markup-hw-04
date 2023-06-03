@@ -460,8 +460,8 @@ img {
     fill: var(--light);
 }
 
-.footer-container {
+.footer-logo-container {
     display: flex;
     align-items: baseline;
-    
+
 }
