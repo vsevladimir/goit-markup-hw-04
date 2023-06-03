@@ -490,4 +490,5 @@ img {
     width: 100%;
     height: 100%;
     background-color: var(--primary-brand);
+    border-radius: 50%;
 }
