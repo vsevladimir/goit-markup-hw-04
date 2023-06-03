@@ -243,6 +243,7 @@ img {
 
 .team-paragraph {
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .logo-footer {
@@ -408,4 +409,10 @@ img {
     background-color: var(--light);
     border-radius: 4px;
     margin-bottom: 8px;
+}
+
+.soc-media-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
