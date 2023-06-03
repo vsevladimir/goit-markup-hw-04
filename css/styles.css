@@ -486,11 +486,18 @@ img {
 .footer-soc-item {
     width: 40px;
     height: 40px;
+    list-style: none;
 }
 .footer-soc-link {
     background-color: var(--primary-brand);
     border-radius: 50%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
+}
+
+.footer-soc-link:is(:hover,:focus) {
+    background-color: var(--success);
 }
