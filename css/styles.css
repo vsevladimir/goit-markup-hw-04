@@ -509,3 +509,17 @@ img {
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
+/* customers section */
+
+.customers-section {
+    padding: 120px 0;
+}
+
+.title-customers {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--dark);
+    margin-bottom: 72px;
+}
+
