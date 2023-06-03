@@ -465,3 +465,8 @@ img {
     align-items: baseline;
 
 }
+
+.footer-logo-container-index {
+    display: flex;
+    align-items: baseline;
+}
