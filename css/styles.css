@@ -411,18 +411,18 @@ img {
     margin-bottom: 8px;
 }
 
-.soc-media-list {
+.soc-team-list {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.soc-media-item {
+.soc-team-item {
     width: 40px;
     height: 40px;
 }
 
-.soc-link {
+.soc-link-team {
     width: 100%;
     height: 100%;
     background-color: var(--primary-brand);
@@ -430,4 +430,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.soc-link-team:is(:hover,:focus) {
+    background-color: var(--pressed-state);
+}
+
+.team-icon {
+    fill: var(--light);
 }
