@@ -463,9 +463,9 @@ img {
 .footer-first-container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
     flex-direction: column;
-
+    max-width: 264px;
+    margin-right: 120px;
 }
 
 .soc-footer-paragraph {
@@ -501,4 +501,10 @@ img {
 
 .footer-icons {
     fill: var(--light);
+}
+
+.footer-logo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
