@@ -549,3 +549,8 @@ img {
 .icon-customers {
     fill: currentColor;
 }
+
+.link-customers:is(:hover,:focus) {
+    border-color: var(--pressed-state);
+    color: var(--pressed-state);
+}
