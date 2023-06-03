@@ -501,3 +501,7 @@ img {
 .footer-soc-link:is(:hover,:focus) {
     background-color: var(--success);
 }
+
+.footer-icons {
+    fill: var(--light);
+}
